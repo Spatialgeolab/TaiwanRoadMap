@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>台灣路名統計地圖</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png"  class='logo' alt="logo"></img>
+        <h1>台灣路名統計地圖</h1>
+    </header>
+    <div class="legend">
+        <div class="option-container">
+            <select class="roadSelector" id="roadSelector">
+                <option class="select-item" value="All">全部顯示</option>
+                <option class="select-item" value="中正路">中正路</option>
+                <option class="select-item" value="中山路">中山路</option>
+                <option class="select-item" value="中華路">中華路</option>
+                <option class="select-item" value="中興路">中興路</option>
+                <option class="select-item" value="民生路">民生路</option>
+                <option class="select-item" value="仁愛路">仁愛路</option>
+                <option class="select-item" value="復興路">復興路</option>
+                <option class="select-item" value="和平路">和平路</option>
+                <option class="select-item" value="成功路">成功路</option>
+                <option class="select-item" value="民族路">民族路</option>
+            </select>
+        </div>
+        <div class="legend-list" id="legend-list">
+            <table id="legend-table">
+                <thead>
+                    <tr>
+                        <th colspan="11">縣市道路數量統計</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+    <div class="map-container">
+        <div id="map"></div>
+    </div>
+    <footer>
+        <div>
+            <h3>©2023 本地圖為:Geolab空間資訊實驗室製作維護</h3>
+        </div>
+    </footer>
+    <script  type="module" src="leaflet.js"></script>
+</body>
+</html>

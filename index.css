@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1
+}
+header h1{
+    height: 200px;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 200px;
+    text-align: center;
+    margin: 0 20px;
+
+}
+header .logo{
+    width: 200px;
+    height: 200px;
+}
+footer h3 {
+    text-align: center;
+}
+#map {
+    width: 50vw;
+    height: 70vh;
+    border: 1px solid #666;
+    box-shadow: 0px 0px 25px;
+}
+.option-container{
+    padding: 10px;
+    width: 180px;
+    margin: 0 auto;
+    display: flex;
+}
+.option-container .roadSelector{
+    width: 200px;
+    height: 35px;
+    margin:  0 auto;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.legend-list{
+    /* width: 200px; */
+    /* background-color: #666; */
+    margin: 0 50px;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+}
+th{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.map-container{
+    display: flex;
+    justify-content:center;
+}
+.legend-item{
+    font-size: 23px;
+    font-weight: bold;   
+}
+table{
+border:1px solid rgb(107, 106, 106);
+}
+table th{
+border: 1px solid white;
+padding: 5px;
+color:rgb(23, 22, 24);
+}
+table td{
+border: 1px solid rgb(55, 53, 53);
+padding: 5px;
+color: gray;
+}
